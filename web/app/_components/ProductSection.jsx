@@ -24,7 +24,7 @@ function ProductSection() {
   };
   return (
     <div className=" px-10 md:px-20">
-      {/* Latest product  */}
+      {/* All products  */}
       <h2 className="font-bold text-[20px] my-3">
         All products
         <span
@@ -37,7 +37,7 @@ function ProductSection() {
       </h2>
       <ProductList productList={productList} />
 
-      {/* Source Code Products  */}
+      {/* Vintage Prod  */}
       <h2 className="font-bold text-[20px] my-3">
         Vintage Prod
         <span
