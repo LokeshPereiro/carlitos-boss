@@ -39,7 +39,7 @@ function ProductSection() {
 
       {/* Source Code Products  */}
       <h2 className="font-bold text-[20px] my-3">
-        Vintage
+        Vintage Prod
         <span
           className="font-normal text-[14px]
          float-right text-primary flex 
@@ -49,7 +49,7 @@ function ProductSection() {
           <ArrowRight className="h-4" />{" "}
         </span>
       </h2>
-      <ProductList productList={filterProductList("Source Code")} />
+      <ProductList productList={filterProductList("Stickers")} />
 
       {/* Icons Pack Products  */}
       <h2 className="font-bold text-[20px] my-3">
